@@ -5,7 +5,6 @@ sudo add-apt-repository ppa:certbot/certbot
 sudo apt update
 sudo apt -y upgrade
 
-# Add alias python
 echo "alias python=python3" >> ~/.bashrc
 echo "alias pip=pip3" >> ~/.bashrc
 
